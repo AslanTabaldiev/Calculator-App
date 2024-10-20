@@ -1,0 +1,56 @@
+/* Center the contents of the window */
+.root {
+    -fx-padding: 20px;
+    -fx-alignment: center;
+    -fx-pref-height: 50px;
+    -fx-background-color: black; /* Черный фон */
+}
+
+/* Text field */
+.text-field {
+    -fx-font-size: 24px;
+    -fx-text-fill: white;
+    -fx-alignment: center-right;
+    -fx-pref-height: 50px;
+    -fx-background-color: #000000;
+    -fx-border-color: #343434;
+}
+
+/* Buttons */
+.button {
+    -fx-font-size: 18px;
+    -fx-text-fill: white;
+    -fx-background-color: #5b5b5b;
+    -fx-pref-height: 50px;
+    -fx-pref-width: 60px;
+    -fx-background-radius: 10px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0.5, 0.0, 0.0);
+}
+
+.button:hover {
+    -fx-background-color: #7f7f7f;
+}
+
+.button-operator {
+    -fx-background-color: #f39c12;
+}
+
+.button-operator:hover {
+    -fx-background-color: #e67e22;
+}
+
+.button-clear {
+    -fx-background-color: #f39c12;
+}
+
+.button-clear:hover {
+    -fx-background-color: #e67e22;
+}
+
+.button-equals {
+    -fx-background-color: #f39c12;
+}
+
+.button-equals:hover {
+    -fx-background-color: #e67e22;
+}
